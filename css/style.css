@@ -134,6 +134,26 @@ p {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+.home-columns .l-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.home-columns .l-column {
+    flex: 1 1 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    min-width: 300px;
+}
+@media (max-width: 800px) {
+    .home-columns .l-column {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
 .home-container .l-grid {
     display: flex;
     flex-wrap: wrap;
