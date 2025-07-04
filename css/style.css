@@ -154,6 +154,14 @@ p {
         max-width: 100%;
     }
 }
+.home-columns .content-img {
+    width: 300px;  
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 20px auto 30px auto;
+}
+
 .home-container .l-grid {
     display: flex;
     flex-wrap: wrap;
