@@ -133,23 +133,22 @@ p {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-}
-.l-grid {
+.home-container .l-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1024px; /* matches your menu width */
+    max-width: 1024px;
     margin: 0 auto;
 }
-.l-column {
-    flex: 1 1 50%; /* two columns of equal width */
+.home-container .l-column {
+    flex: 1 1 50%;
     max-width: 50%;
     box-sizing: border-box;
     padding: 10px;
-    min-width: 300px; /* prevents too narrow columns on small screens */
+    min-width: 300px;
 }
 @media (max-width: 800px) {
-    .l-column {
+    .home-container .l-column {
         flex-basis: 100%;
         max-width: 100%;
     }
