@@ -134,14 +134,14 @@ p {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-.l-grid {
+.home-container .l-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 1024px;
     margin: 0 auto;
 }
-.l-column {
+.home-container .l-column {
     flex: 1 1 50%;
     max-width: 50%;
     box-sizing: border-box;
@@ -149,7 +149,7 @@ p {
     min-width: 300px;
 }
 @media (max-width: 800px) {
-    .l-column {
+    .home-container .l-column {
         flex-basis: 100%;
         max-width: 100%;
     }
