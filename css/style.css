@@ -134,6 +134,11 @@ p {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+/* Make subpage columns match menu width */
+.l-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
 .home-columns .l-grid {
     display: flex;
     flex-wrap: wrap;
